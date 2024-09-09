@@ -50,7 +50,7 @@ function Home() {
     const swiper = new Swiper(swiperRef.current, {
       loop: true,
       autoplay: {
-        delay: 5000, // Change slide every 5 seconds
+        delay: 5000, // Change slide after every 5 seconds
       },
       pagination: {
         el: ".swiper-pagination",
@@ -95,7 +95,7 @@ function Home() {
         </div>
 
         {/* Custom Controls */}
-        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-10 border-t-2 md:m-[60px] m-[5px] left-1 bottom-7 sm:space-x-2 ">
+        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-12 border-t-2 md:m-[60px] m-[5px] left-1 bottom-7 sm:space-x-10 ">
           <div className="flex items-center gap-3 text-white">
             <FaArrowLeft />
             <button

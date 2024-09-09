@@ -28,7 +28,7 @@ function UpcomingProducts() {
       </div>
 
       {/* upcoming projects div */}
-      <div className="bg-[#f5f5dc] md:flex md:justify-around p-[40px] mt-[20px] grid grid-cols-2 gap-[10px] ">
+      <div className="bg-[#f5f5dc] md:flex md:justify-around p-[10px] md:p-[40px] mt-[20px] grid grid-cols-2 gap-[10px] ">
         <div
           className={` md:pt-[20px] md:pl-[40px] rounded-lg md:pr-[40px] mb-[20px] md:pb-[10px] p-[10px] cursor-pointer flex justify-center ${
             hoveredIndex === 0 ? "bg-white" : "bg-transparent"
@@ -36,11 +36,11 @@ function UpcomingProducts() {
           onMouseEnter={() => handleMouseEnter(0)}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="w-[70px] md:w-[150px] flex flex-col justify-center">
+          <div className="w-[100px] md:w-[150px] flex flex-col justify-center">
             <img
               src="images/bike.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[90px] h-[80px]"
             />
             <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Highway Bike Racing
@@ -55,11 +55,11 @@ function UpcomingProducts() {
           onMouseEnter={() => handleMouseEnter(1)}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="w-[70px] md:w-[150px] flex flex-col justify-center">
+          <div className="w-[100px] md:w-[150px] flex flex-col justify-center">
             <img
               src="images/bike2.jpg"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[90px] h-[80px]"
             />
             <h1 className="font-medium md:text-2xl text-center text-[15px]">
               MotorGP Racing
@@ -74,11 +74,11 @@ function UpcomingProducts() {
           onMouseEnter={() => handleMouseEnter(2)}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="w-[70px] md:w-[150px] flex flex-col justify-center">
+          <div className="w-[100px] md:w-[150px] flex flex-col justify-center">
             <img
               src="images/puzzle.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[90px] h-[80px]"
             />
             <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Puzzle-Match Merge
@@ -93,11 +93,11 @@ function UpcomingProducts() {
           onMouseEnter={() => handleMouseEnter(3)}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="w-[70px] md:w-[150px] flex flex-col justify-center">
+          <div className="w-[100px] md:w-[150px] flex flex-col justify-center">
             <img
               src="images/gen-ai.png"
               alt=""
-              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[80px] h-[80px]"
+              className="md:w-[150px] md:h-[150px] rounded-lg mb-[20px] w-[90px] h-[80px]"
             />
             <h1 className="font-medium md:text-2xl text-center text-[15px]">
               Gen-AI Social Media App

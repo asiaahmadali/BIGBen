@@ -93,12 +93,6 @@ function Gaming() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/job/:jobId" element={<JobDetail />} />
       </Routes>
-
-      {/* <About></About> */}
-      {/* <WhatWeDo></WhatWeDo> */}
-      {/* <Products></Products> */}
-      {/* <ContactHeader></ContactHeader> */}
-      {/* <Careers></Careers> */}
     </>
   );
 }
