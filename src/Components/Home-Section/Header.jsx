@@ -24,7 +24,7 @@ function Header() {
           Developing from an idea and publishing it to final product.
         </h6>
         <button
-          className="bg-yellow-500 pt-[25px] pb-[15px] pr-[50px] pl-[50px] text-black rounded-md font-medium"
+          className="bg-yellow-500 pt-[25px] pb-[15px] pr-[50px] pl-[50px] text-black rounded-md font-medium hover:shadow shadow-yellow-800"
           data-aos="fade-in"
           data-aos-delay="1000"
           onClick={handleClick}

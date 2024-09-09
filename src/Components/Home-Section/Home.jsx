@@ -95,7 +95,7 @@ function Home() {
         </div>
 
         {/* Custom Controls */}
-        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-12 border-t-2 md:m-[60px] m-[5px] left-1 bottom-7 sm:space-x-10 ">
+        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-12 border-t-2 md:m-[60px] m-[5px] left-1 bottom-[150px] sm:space-x-10 ">
           <div className="flex items-center gap-3 text-white">
             <FaArrowLeft />
             <button
