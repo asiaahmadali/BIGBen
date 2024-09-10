@@ -1,7 +1,7 @@
 // RecruitmentCard.js
 function RecruitmentCard(Props) {
   return (
-    <div className="relative bg-white p-[20px] flex flex-col items-center justify-center gap-[20px] rounded-[20px] shadow-md shadow-gray-300 overflow-hidden">
+    <div className="relative bg-white p-[20px] flex flex-col items-center justify-center gap-[20px] rounded-[20px] shadow-md shadow-gray-300">
       {/* Numbering */}
       <div className="absolute -top-6 flex items-center gap-2">
         <div className="w-8 h-8 flex items-center justify-center rounded-full bg-gradient-to-r from-gray-700 via-gray-800 to-black text-orange-500 font-bold text-lg">
