@@ -68,12 +68,12 @@ function TechnologyStack() {
       </div>
 
       {/* Technology Links */}
-      <div className="grid grid-cols-2 md:flex justify-between mt-[100px] text-xl text-gray-500">
+      <div className="grid grid-cols-2 md:flex justify-between mt-[100px] text-[16px] md:text-xl text-gray-500">
         {stackOptions.map((option, index) => (
           <button
             key={index}
             onClick={() => setSelectedStack(option.value)}
-            className={`p-2 ${
+            className={`p-2${
               selectedStack === option.value
                 ? "text-orange-500 border-b-2 border-orange-500"
                 : "text-gray-500"
