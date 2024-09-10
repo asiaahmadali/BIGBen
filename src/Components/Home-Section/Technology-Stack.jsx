@@ -68,7 +68,7 @@ function TechnologyStack() {
       </div>
 
       {/* Technology Links */}
-      <div className="grid grid-cols-2 md:flex justify-between mt-[100px] text-[16px] md:text-xl text-gray-500 mb-[7px]">
+      <div className="grid grid-cols-2 md:flex justify-between mt-[100px] text-[14px] md:text-xl text-gray-500 mb-[7px]">
         {stackOptions.map((option, index) => (
           <button
             key={index}
