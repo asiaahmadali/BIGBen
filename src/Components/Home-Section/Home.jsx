@@ -90,7 +90,7 @@ function Home() {
           ref={swiperRef}
         >
           <div className="swiper-wrapper">
-            <div className="swiper-slide bg-[url('/images/game1.jpg')] bg-cover bg-center h-full w-full"></div>
+            <div className="swiper-slide bg-[url('/images/bg-img.jpg')] bg-cover bg-center h-full w-full"></div>
           </div>
         </div>
 
