@@ -9,7 +9,7 @@ function FounderMessage() {
           Message From the founder
         </h1>
       </div>
-      <div className="flex md:flex-row flex-col justify-around md:items-center p-[30px] gap-[20px] md:gap-[5px]">
+      <div className="flex md:flex-row flex-col justify-around md:items-center p-[30px] gap-[20px] md:gap-[5px] overflow-hidden">
         <div className="md:w-[40%] w-[100%] ">
           <img
             src="images/founder.webp"

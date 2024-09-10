@@ -2,7 +2,7 @@ function Mission() {
   return (
     <>
       <div className="overflow-hidden">
-        <div>
+        <div className="overflow-hidden">
           <h1
             className="md:text-5xl text-2xl font-bold text-center m-[10px] mt-[20px] mb-[20px]"
             data-aos="fade-down"
@@ -12,10 +12,10 @@ function Mission() {
         </div>
 
         {/* mission divs */}
-        <div className="flex md:flex-row flex-col justify-around items-center mt-[20px]">
+        <div className="flex md:flex-row flex-col justify-around items-center mt-[20px] overflow-hidden">
           <div className="flex flex-col ">
             <div
-              className="flex gap-[20px]"
+              className="flex gap-[20px] overflow-hidden"
               data-aos="fade-down"
               data-aos-delay="1000"
             >
@@ -31,7 +31,7 @@ function Mission() {
             </div>
 
             <div
-              className="flex gap-[20px]"
+              className="flex gap-[20px] overflow-hidden"
               data-aos="fade-down"
               data-aos-delay="1000"
             >
