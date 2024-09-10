@@ -4,7 +4,7 @@ import { FiChevronRight } from "react-icons/fi";
 function OpenPositions() {
   return (
     <>
-      <div className="md:p-[100px] p-[10px]">
+      <div className="md:p-[100px] p-[10px] overflow-hidden">
         <h1 className="md:text-4xl text-xl font-bold text-center md:mb-[50px] mb-[20px]">
           Open Positions
         </h1>

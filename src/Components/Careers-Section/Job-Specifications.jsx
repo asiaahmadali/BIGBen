@@ -1,6 +1,6 @@
 function JobSpecifications(Props) {
   return (
-    <div className="p-4 md:p-8 border-b-[2px]">
+    <div className="p-4 md:p-8 border-b-[2px] overflow-hidden">
       <h1 className="text-2xl md:text-4xl font-bold mb-4 text-center md:mt-[100px] mt-[10px]">
         {Props.title}
       </h1>

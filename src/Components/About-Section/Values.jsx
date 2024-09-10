@@ -1,7 +1,7 @@
 function Values() {
   return (
     <>
-      <div className="mb-[50px] mt-[50px]">
+      <div className="mb-[50px] mt-[50px] overflow-hidden">
         <div className="mt-[20px] mb-[20px]">
           <h1
             className="font-bold md:text-5xl text-2xl text-center "

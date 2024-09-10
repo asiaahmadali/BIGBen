@@ -22,7 +22,7 @@ function RecruitmentProcess() {
     "There is a competency-based interviewing process to identify the potential individuals who will thrive in our environment along with being professionally & culturally fit. There is usually a series of interviews e.g the hiring manager’s interview, and a combination of technical screens, panel interviews, and team presentations.";
 
   return (
-    <div className="md:p-[100px] p-[10px]">
+    <div className="md:p-[100px] p-[10px] overflow-hidden">
       <div className="flex flex-col gap-4 md:items-start items-center mb-[20px] md:mb-[50px]">
         <h1 className="font-bold md:text-3xl text-xl">Recruitment Process</h1>
         <p className="text-orange-400 font-medium text-xl">

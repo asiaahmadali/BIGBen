@@ -83,7 +83,7 @@ function Home() {
 
   return (
     <>
-      <div className="relative h-screen w-full">
+      <div className="relative h-screen w-full overflow-hidden">
         {/* Swiper Container */}
         <div
           className="swiper-container absolute inset-0 h-full w-full -z-10"
@@ -95,7 +95,7 @@ function Home() {
         </div>
 
         {/* Custom Controls */}
-        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-12 border-t-2 md:m-[60px] m-[5px] left-1 bottom-[150px] sm:space-x-10 ">
+        <div className="custom-controls absolute md:bottom-8 md:left-4 flex items-center space-x-12 border-t-2 md:m-[60px] m-[5px] left-1  sm:space-x-10 ">
           <div className="flex items-center gap-3 text-white">
             <FaArrowLeft />
             <button

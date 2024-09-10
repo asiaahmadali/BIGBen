@@ -1,7 +1,7 @@
 function TechPartners() {
   return (
     <>
-      <div className="md:p-[70px] p-[10px]">
+      <div className="md:p-[70px] p-[10px] overflow-hidden">
         <h1
           className="font-bold md:text-6xl text-2xl text-center mb-[50px] mt-[30px]"
           data-aos="fade-right"

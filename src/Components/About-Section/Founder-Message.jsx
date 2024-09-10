@@ -1,7 +1,7 @@
 function FounderMessage() {
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <h1
           className="md:text-4xl text-xl font-bold text-center mt-[10px] mb-[10px]"
           data-aos="fade-right"

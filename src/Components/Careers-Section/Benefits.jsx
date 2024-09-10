@@ -12,7 +12,7 @@ function Benefits() {
   const heading9 = "Recreational Areas (gaming, sports, cafe)";
   return (
     <>
-      <div className="md:p-[70px] p-[10px] bg-pink-50 md:pb-[70px]">
+      <div className="md:p-[70px] p-[10px] bg-pink-50 md:pb-[70px] overflow-hidden">
         <div>
           <h1 className="text-center font-bold md:text-4xl text-2xl mb-3">
             {" "}

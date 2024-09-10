@@ -35,7 +35,7 @@ function AllProducts() {
 
   return (
     <>
-      <div className="md:pl-[70px] md:pr-[70px]">
+      <div className="md:pl-[70px] md:pr-[70px] overflow-hidden">
         <LeftProduct
           para={para1}
           heading={heading1}

@@ -1,7 +1,7 @@
 function DoApps() {
   return (
     <>
-      <div className="p-[10px] md:p-[100px] flex md:flex-row flex-col-reverse gap-[10px] md:items-start items-center">
+      <div className="p-[10px] md:p-[100px] flex md:flex-row flex-col-reverse gap-[10px] md:items-start items-center overflow-hidden">
         {/* img */}
         <div className="md:w-[50%] w-[90%]">
           <img

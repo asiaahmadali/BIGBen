@@ -1,7 +1,7 @@
 function RightProduct(Props) {
   return (
     <>
-      <div className="flex md:flex-row flex-col md:pl-[70px] md:pr-[70px] md:gap-0 gap-[20px] items-center">
+      <div className="flex md:flex-row flex-col md:pl-[70px] md:pr-[70px] md:gap-0 gap-[20px] items-center overflow-hidden">
         <div
           className="flex flex-col gap-[20px] md:w-[50%] w-full items-center md:items-start"
           data-aos="fade-right"

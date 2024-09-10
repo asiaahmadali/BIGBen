@@ -1,7 +1,7 @@
 function DoGaming() {
   return (
     <>
-      <div className="p-[10px] md:p-[70px] flex md:flex-row flex-col gap-[30px] md:items-start items-center">
+      <div className="p-[10px] md:p-[70px] flex md:flex-row flex-col gap-[30px] md:items-start items-center overflow-hidden">
         <div
           className="flex flex-col gap-8 items-center md:items-start"
           data-aos="fade-right"

@@ -226,7 +226,7 @@ function JobDetail() {
   }
 
   return (
-    <div className="p-4">
+    <div className="p-4 overflow-hidden">
       <NavBar></NavBar>
       <JobSpecifications
         title={job.title}

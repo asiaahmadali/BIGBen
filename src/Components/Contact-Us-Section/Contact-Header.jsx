@@ -5,7 +5,7 @@ function ContactHeader() {
 
   return (
     <>
-      <div className="flex h-auto md:h-screen md:flex-row flex-col md:pt-[90px] pt-[20px]">
+      <div className="flex h-auto md:h-screen md:flex-row flex-col md:pt-[90px] pt-[20px] overflow-hidden">
         {/* image div */}
         <div
           className="bg-gradient-to-r from-black to-gray-500  text-white p-[20px] md:p-[30px] "

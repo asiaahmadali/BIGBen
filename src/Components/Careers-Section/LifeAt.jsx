@@ -1,7 +1,7 @@
 function LifeAt() {
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <h1 className="text-center md:text-4xl text-[18px] font-bold">
           Life At BIG<span className="text-orange-500">Ben</span>
         </h1>

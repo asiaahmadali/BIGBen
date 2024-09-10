@@ -1,7 +1,7 @@
 function WhyJoin() {
   return (
     <>
-      <div className="p-[10px] md:p-[70px] flex md:flex-row flex-col gap-[30px] md:items-start items-center">
+      <div className="p-[10px] md:p-[70px] flex md:flex-row flex-col gap-[30px] md:items-start items-center overflow-hidden">
         <div className="flex flex-col gap-8 items-center md:items-start w-full md:w-[60%]">
           <h1
             className="md:text-5xl text-2xl text-center md:text-left font-bold"

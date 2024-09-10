@@ -1,7 +1,7 @@
 function LeftProduct(Props) {
   return (
     <>
-      <div className="flex md:flex-row flex-col-reverse md:pl-[70px] md:pr-[70px] gap-[30px] items-center">
+      <div className="flex md:flex-row flex-col-reverse md:pl-[70px] md:pr-[70px] gap-[30px] items-center overflow-hidden">
         <div className="md:w-[48%] w-full flex justify-center">
           <img
             src={Props.lgimg}

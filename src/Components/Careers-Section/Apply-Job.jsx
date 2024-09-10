@@ -1,7 +1,7 @@
 function ApplyJob(Props) {
   return (
     <>
-      <div className="flex flex-col  items-center gap-5 ">
+      <div className="flex flex-col  items-center gap-5 overflow-hidden">
         <h2 className="md:text-4xl md:font-semibold font-medium text-xl mt-8 ">
           Apply for {Props.title}
         </h2>

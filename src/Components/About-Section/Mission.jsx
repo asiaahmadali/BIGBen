@@ -1,7 +1,7 @@
 function Mission() {
   return (
     <>
-      <div>
+      <div className="overflow-hidden">
         <div>
           <h1
             className="md:text-5xl text-2xl font-bold text-center m-[10px] mt-[20px] mb-[20px]"
