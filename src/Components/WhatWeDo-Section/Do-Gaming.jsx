@@ -76,7 +76,7 @@ function DoGaming() {
           <img
             src="images/do1.webp"
             alt=""
-            className="rounded-md"
+            className="rounded-md w-[100%] lg:w-[85%]"
             data-aos="fade-left"
           />
         </div>

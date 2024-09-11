@@ -11,10 +11,10 @@ function RecruitmentCard(Props) {
         <div className="w-48 h-[2px] bg-orange-500"></div>
       </div>
 
-      <h1 className="md:text-3xl text-center text-[18px] font-bold">
+      <h1 className="lg:text-3xl text-center text-[18px] font-bold">
         {Props.heading}
       </h1>
-      <p className="md:text-[17px] text-[15px]">{Props.para}</p>
+      <p className="lg:text-[17px] text-[15px]">{Props.para}</p>
     </div>
   );
 }

@@ -14,7 +14,7 @@ function LeftProduct(Props) {
         </div>
 
         <div
-          className="flex flex-col gap-[15px] lg:w-[50%] w-full items-center md:items-start"
+          className="flex flex-col gap-[15px] lg:w-[50%] w-full items-center lg:items-start"
           data-aos="fade-left"
         >
           <h1 className="lg:text-5xl text-xl text-center lg:text-start font-bold">

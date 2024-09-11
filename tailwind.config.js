@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
           screens:{
-            'xl1440':'1440px' 
+            'custom':'1024px' 
           },
           customFont:{
             'sans-serif':'sans-serif'
