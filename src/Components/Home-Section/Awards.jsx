@@ -45,7 +45,7 @@ function Awards() {
               <AwardCard
                 headingC={headingC1}
                 pCard={pCard1}
-                imgCard="images/unreal.webp"
+                imgCard="images/award.png"
               ></AwardCard>
             </div>
           </SwiperSlide>
@@ -54,7 +54,7 @@ function Awards() {
             <AwardCard
               headingC={headingC2}
               pCard={pCard2}
-              imgCard="images/unreal.webp"
+              imgCard="images/big-win.webp"
             ></AwardCard>
           </SwiperSlide>
 
@@ -63,7 +63,7 @@ function Awards() {
               <AwardCard
                 headingC={headingC3}
                 pCard={pCard3}
-                imgCard="images/unreal.webp"
+                imgCard="images/innovation.jfif"
               ></AwardCard>
             </div>
           </SwiperSlide>
@@ -72,7 +72,7 @@ function Awards() {
             <AwardCard
               headingC={headingC4}
               pCard={pCard4}
-              imgCard="images/unreal.webp"
+              imgCard="images/pasha.jfif"
             ></AwardCard>
           </SwiperSlide>
         </Swiper>

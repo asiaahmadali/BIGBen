@@ -3,31 +3,31 @@ import ProductLeft from "./Product-Left";
 
 function ProductIdeas() {
   const p1 =
-    "CareFort is a care for life-patient-practitioner role-playing game that allows you to practice real hospital cases through the narrative character of Dr. Alice- who is breathing life into patients through her skillful hands.";
+    "Did you ever imagine hunting an angry shark? Sharks are not hunted easily in fish games. The dream of hunting fish can become true in shark games. Diving deep in the ocean is dangerous in shark hunting games. ";
 
   const p2 =
-    "Diagnose and operate the incoming cases through 911. Put your skills to the test. The Caring Souls are the role players who care to remedy the souls in pain.";
+    "Welcome to Mother Simulator, where you can step into the role of a devoted mom and experience the everyday joys and challenges of parenthood. In this engaging game, you will care for your virtual son or daughter. ";
 
   const p3 =
-    "Thrill yourself with unspoken secrets and mysteries in the mansion of Mad Scientist. Set foot in this RPG and rise against evil through the character of Ari. Save the town, and prank the prankster.";
+    "Welcome to the luxury Prado parking driver in the modern Jeep Wala game. The Prado Jeep game trains you how to become a master in the parking driving game. Polish their parking skills in the jeep simulator game.  ";
 
   const p4 =
-    "A stunt racing game set in the most intriguing and pleasing graphical landscapes and underground tunnels to thrill you with the adventurous challenges and the trickiest tracks.Either you make it, or you break it.";
+    "Start the fire engine of the car simulator you need to ignite stunt driving of real car racing games. Buckle up as a racing master, because car stunts in a mobile race of car games are more than a thrill traffic ride.";
 
   const p5 =
-    "Start your engines, shift the gear, and move your wheelers. This game is an all-rounder making it the first and the best parking school game in virtual reality.";
+    "Do you want to play in the Super Cup as a football striker or the manager of football games? Mini soccer games offline check your stamina in these soccer leagues of the World Cup. Score soccer goals with a team of eleven.";
 
   const p6 =
-    "This player comes with both audio and video playing settings for your devices. Enjoy the clearest audio and the finest video up to 4K at the slight tap of your fingertips!";
+    "Do not dare to commit a real gangster theft in fighting games. Practice fps shooting in a world of crime simulators and shooting games. Having a mad gangster crime shooting simulator, led you to the dark vice crime in a grand city of action games. ";
 
   // headins
 
-  const heading1 = "CareFort";
-  const heading2 = "Caring Souls";
-  const heading3 = "Mad Scientist";
-  const heading4 = "Bike Stunt";
-  const heading5 = "Prado Parking";
-  const heading6 = "Video player";
+  const heading1 = "Angry Shark Revenge Shark";
+  const heading2 = "Mom Life Mother Simulator";
+  const heading3 = "Prado Jeep Parking";
+  const heading4 = "City Car Driving";
+  const heading5 = "Soccer Match 3D Football";
+  const heading6 = "Vegas Gangster Crime World";
 
   // sm-images links
 
@@ -49,7 +49,7 @@ function ProductIdeas() {
           smimg="images/p1-s.webp"
           heading={heading1}
           para={p1}
-          lgimg="images/p1.webp"
+          lgimg="images/lg-shark.webp"
         ></ProductRight>
 
         {/* peoduct 2 */}
@@ -58,7 +58,7 @@ function ProductIdeas() {
           smimg="images/p2-s.webp"
           heading={heading2}
           para={p2}
-          lgimg="images/p2.webp"
+          lgimg="images/lg-mom.webp"
         ></ProductLeft>
 
         {/* product 3 */}
@@ -67,7 +67,7 @@ function ProductIdeas() {
           smimg="images/p3-s.webp"
           heading={heading3}
           para={p3}
-          lgimg="images/p3.webp"
+          lgimg="images/prado.png"
         ></ProductRight>
 
         {/* peoduct 4 */}
@@ -76,7 +76,7 @@ function ProductIdeas() {
           smimg="images/p4-s.webp"
           heading={heading4}
           para={p4}
-          lgimg="images/p4.webp"
+          lgimg="images/lg-car.webp"
         ></ProductLeft>
 
         {/* product 5 */}
@@ -85,7 +85,7 @@ function ProductIdeas() {
           smimg="images/p5-s.webp"
           heading={heading5}
           para={p5}
-          lgimg="images/p5.webp"
+          lgimg="images/lg-football.webp"
         ></ProductRight>
 
         {/* peoduct 6 */}
@@ -94,7 +94,7 @@ function ProductIdeas() {
           smimg="images/p6-s.webp"
           heading={heading6}
           para={p6}
-          lgimg="images/p6.webp"
+          lgimg="images/lg-crime.webp"
         ></ProductLeft>
       </div>
     </>

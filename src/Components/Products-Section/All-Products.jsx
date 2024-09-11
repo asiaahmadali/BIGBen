@@ -3,35 +3,52 @@ import RightProduct from "./Right-Product";
 
 function AllProducts() {
   //        headings
-  const heading1 = "Mad Scientist - Horror Survival Game";
-  const heading2 = "Stunt Legends – Bike Stunt Game";
-  const heading3 = "Prado Parking 3D";
-  const heading4 = "Crazy Car Racing";
-  const heading5 = "Carefort -Hospital Game";
-  const heading6 = "The Caring Souls";
-  const heading7 = "Video player";
+  const heading1 = "Angry Shark Revenge Shark Game";
+  const heading2 = "Mom Life Mother Simulator Game";
+  const heading3 = "Prado Jeep Parking";
+  const heading4 = "City Car Driving";
+  const heading5 = "Soccer Match 3D Football Games";
+  const heading6 = "Vegas Gangster Crime World Sim";
+  const heading7 = "Deer Hunting: FPS Sniper Games";
+
+  // pages resourse
+
+  const source1 =
+    "https://play.google.com/store/apps/details?id=com.bgs.hungry.shark.games.shark.world";
+  const source2 =
+    "https://play.google.com/store/apps/details?id=com.bgs.mother.simulator.games.family.life.game.mom.dad";
+  const source3 =
+    "https://play.google.com/store/apps/details?id=com.bgs.prado.jeep.parking.car.games.offline";
+  const source4 =
+    "https://play.google.com/store/apps/details?id=com.bgs.car.racing.game.stunt";
+  const source5 =
+    "https://play.google.com/store/apps/details?id=com.bgs.soccer.match.football.games.offline";
+  const source6 =
+    "https://play.google.com/store/apps/details?id=com.bgs.vegas.gangster.sim.crime.world.games";
+  const source7 =
+    "https://play.google.com/store/apps/details?id=com.bgs.deer.hunting.sniper.shooting.games";
 
   //       paragraphs
   const para1 =
-    "Mad Scientist is an RPG thriller game of mystery, and puzzle. The character Ari arrives in the new town where an evil scientist is experimenting on all the living and the dead. Ari is given the responsibility of meddling with the scientist “Longshot” and bring the town back to its original peace. Unlike any other game in the market, Mad Scientist, is based on mind games- missions.";
+    "Did you ever imagine hunting an angry shark? Sharks are not hunted easily in fish games. The dream of hunting fish can become true in shark games. Diving deep in the ocean is dangerous in shark hunting games. Use an antique boat in a shark simulator and fish hunting games. No need to fasten seat belts on the boat for safety in shark games. ";
 
   const para2 =
-    "A stunt racing bike game of treacherous, and adventurous tracks where the graphics are artistically eye-pleasing, and leisurely enjoyable with three engaging, intriguing, and simulating modes like Casual, Extreme, and Contract with a multiplicity of fluctuating environments.";
+    "Welcome to Mother Simulator, where you can step into the role of a devoted mom and experience the everyday joys and challenges of parenthood. In this engaging game, you will care for your virtual son or daughter. ";
 
   const para3 =
-    "Parking simulator driving challenge, shift the gear and make the perfect car parking in the narrow spaces. Drivers, ready for a driving game venture? Terafort maintains its reputation of being the most popular Prado car parking games producer with its high quality and commitment to the players for multiplayer Suv car based games from all around the planet.";
+    "Welcome to the luxury Prado parking driver in the modern Jeep Wala game. The Prado Jeep game trains you how to become a master in the parking driving game. Polish their parking skills in the jeep simulator game. Smooth controls in the Prado driving game. Prado car offers a challenging level in the jeep parking game. ";
 
   const para4 =
-    "Crazy car racing is truly a crazy game, which has drag, crash and endless racing modes. The game is oozing with fun and utmost creativity. The game is set in a modern-day city, having trees, and skyscraper apartments. The color scheme used in this game is built to give you the refreshing and vibrant feels.";
+    "Start the fire engine of the car simulator you need to ignite stunt driving of real car racing games. Buckle up as a racing master, because car stunts in a mobile race of car games are more than a thrill traffic ride.";
 
   const para5 =
-    "Build your dream hospital. CareFort introduces Dr. Alice for girls, a practicing doctor who is like a real surgeon doctor, passionate enough to take care of her patients in this pretend-play.";
+    "Do you want to play in the Super Cup as a football striker or the manager of football games? Mini soccer games offline check your stamina in these soccer leagues of the World Cup. Score soccer goals with a team of eleven in this offline football game. Compete world-class soccer teams in these football games.";
 
   const para6 =
-    "Caring Soul is a groundbreaking hospital role-playing game that allows users to perform surgeries on different parts of the body along with the proper practitioner’s guide under the tap of your fingers.";
+    "Do not dare to commit a real gangster theft in fighting games. Practice fps shooting in a world of crime simulators and shooting games. Having a mad gangster crime shooting simulator, led you to the dark vice crime in a grand city of action games. ";
 
   const para7 =
-    "Build your dream hospital. CareFort introduces Dr. Alice for girls, a practicing doctor who is like a real surgeon doctor, passionate enough to take care of her patients in this pretend-play.";
+    "Wild animals like deer hunting are difficult in the jungle games. Sniper hunting is adventurous for deer shooters in the sniper hunting of deer games. Use sniper guns as a stag hunter in deer hunting clash of sniper shooting games. A deer hunter may have to chase stag in big buck and animal hunting games. ";
 
   return (
     <>
@@ -39,47 +56,54 @@ function AllProducts() {
         <LeftProduct
           para={para1}
           heading={heading1}
-          lgimg="images/product1.webp"
+          lgimg="images/angry-shark.webp"
           smimg1="images/playstore.webp"
           smimg2="images/at-icon.webp"
+          source={source1}
         ></LeftProduct>
         <RightProduct
           para={para2}
           heading={heading2}
-          lgimg="images/product2.webp"
+          lgimg="images/mother.webp"
           smimg1="images/playstore.webp"
           smimg2="images/at-icon.webp"
+          source={source2}
         ></RightProduct>
         <LeftProduct
           para={para3}
           heading={heading3}
-          lgimg="images/product3.webp"
+          lgimg="images/prado.png"
           smimg1="images/playstore.webp"
+          source={source3}
         ></LeftProduct>
         <RightProduct
           para={para4}
           heading={heading4}
-          lgimg="images/product4.webp"
+          lgimg="images/car.webp"
           smimg1="images/playstore.webp"
           smimg2="images/at-icon.webp"
+          source={source4}
         ></RightProduct>
         <LeftProduct
           para={para5}
           heading={heading5}
-          lgimg="images/product5.webp"
+          lgimg="images/football2.webp"
           smimg1="images/playstore.webp"
+          source={source5}
         ></LeftProduct>
         <RightProduct
           para={para6}
           heading={heading6}
-          lgimg="images/product6.webp"
+          lgimg="images/crime.webp"
           smimg1="images/playstore.webp"
+          source={source6}
         ></RightProduct>
         <LeftProduct
           para={para7}
           heading={heading7}
-          lgimg="images/product7.png"
+          lgimg="images/hunter.webp"
           smimg1="images/playstore.webp"
+          source={source7}
         ></LeftProduct>
       </div>
     </>

@@ -3,12 +3,14 @@ function LeftProduct(Props) {
     <>
       <div className="flex md:flex-row flex-col-reverse md:pl-[70px] md:pr-[70px] gap-[30px] items-center overflow-hidden">
         <div className="md:w-[48%] w-full flex justify-center">
-          <img
-            src={Props.lgimg}
-            alt=""
-            className="md:w-[780px] md:h-[500px] w-[300px] h-[300px]"
-            data-aos="fade-right"
-          />
+          <a href={Props.source}>
+            <img
+              src={Props.lgimg}
+              alt=""
+              className="md:w-[780px] md:h-[500px] w-[300px] h-[300px]"
+              data-aos="fade-right"
+            />
+          </a>
         </div>
 
         <div

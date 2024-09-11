@@ -19,8 +19,8 @@ function ContactHeader() {
                   AUSTIN
                 </h1>
                 <p className="md:text-[20px] text-[16px] text-center">
-                  Terafort Limited, 701 Brazos Street, Ste. 720, Austin, Texas,
-                  78701
+                  BIG<span className="text-orange-400">Ben</span> Gaming Studio,
+                  701 Brazos Street, Ste. 720, Austin, Texas, 78701
                 </p>
               </div>
               <img
@@ -39,7 +39,7 @@ function ContactHeader() {
                   Lahore
                 </h1>
                 <p className="md:text-[20px] text-[16px] text-center">
-                  Commercial, DHA Phase 8, Lahore, 54792 0301 - 1166523
+                  30N Gould ST STE 31937 SHERIDAN WY 82801
                 </p>
                 <div className="flex gap-3 text-blue-600 items-center justify-center text-[16px] md:text-xl">
                   <FaMapMarker className="text-xl"></FaMapMarker>

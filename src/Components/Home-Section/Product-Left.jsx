@@ -1,12 +1,12 @@
 function ProductLeft(Props) {
   return (
     <>
-      <div className="flex md:flex-row flex-col-reverse md:pl-[70px] md:pr-[70px] p-[10px] gap-[30px] items-center">
+      <div className="flex md:flex-row flex-col-reverse md:pl-[70px] md:pr-[70px] p-[10px] gap-[30px] items-center md:mb-[50px] mb-[10px]">
         <div className="md:w-[40%] w-full flex justify-center">
           <img
             src={Props.lgimg}
             alt=""
-            className="md:w-[700px] md:h-[700px] w-[300px] h-[300px]"
+            className="md:w-[400px] md:h-[350px] w-[300px] h-[300px]"
             data-aos="fade-down"
           />
         </div>
@@ -15,7 +15,7 @@ function ProductLeft(Props) {
           <img
             src={Props.smimg}
             alt=""
-            className="w-[80px]"
+            className="w-[90px] rounded-[10px]"
             data-aos="fade-right"
           />
           <p

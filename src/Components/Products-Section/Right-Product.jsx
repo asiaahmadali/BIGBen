@@ -20,12 +20,14 @@ function RightProduct(Props) {
           </div>
         </div>
         <div className="md:w-[55%] w-full flex justify-center">
-          <img
-            src={Props.lgimg}
-            alt=""
-            className="md:w-[780px] md:h-[500px] w-[300px] h-[300px]"
-            data-aos="fade-left"
-          />
+          <a href={Props.source}>
+            <img
+              src={Props.lgimg}
+              alt=""
+              className="md:w-[780px] md:h-[500px] w-[300px] h-[300px]"
+              data-aos="fade-left"
+            />
+          </a>
         </div>
       </div>
     </>

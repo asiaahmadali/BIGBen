@@ -1,4 +1,11 @@
+import { useNavigate } from "react-router-dom";
+
 function DoHeader() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/contact");
+  };
   return (
     <div className="relative overflow-hidden h-screen flex flex-col items-center z-10 justify-center">
       {/* Background Video */}
@@ -36,6 +43,7 @@ function DoHeader() {
           className="pt-[15px] pb-[15px] pr-[30px] pl-[30px] bg-orange-500 text-black mt-[50px]"
           data-aos="fade-in"
           data-aos-delay="1000"
+          onClick={handleClick}
         >
           WANT TO COLLABORATE?
         </button>
