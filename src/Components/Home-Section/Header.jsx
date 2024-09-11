@@ -7,17 +7,17 @@ function Header() {
   };
 
   return (
-    <div className=" text-white ml-[50px] pt-[100px] md:pt-[150px]">
+    <div className=" text-white ml-[50px] pt-[100px] lg:pt-[150px]">
       <div className="">
         <h1
-          className=" text-[35px] md:text-[50px] font-medium mb-[5px] md:mb-[20px] mt-[5px] md:mt-[20px]"
+          className=" text-[35px] lg:text-[50px] font-medium mb-[5px] lg:mb-[20px] mt-[5px] lg:mt-[20px]"
           data-aos="fade-in"
           data-aos-delay="1000"
         >
           Mobile Apps & Games
         </h1>
         <h6
-          className=" font-normal md:font-medium text-[20px] md:text-[25px] mb-[50px]"
+          className=" font-normal lg:font-medium text-[20px] lg:text-[25px] mb-[50px]"
           data-aos="fade-in"
           data-aos-delay="1000"
         >

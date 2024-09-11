@@ -15,7 +15,7 @@ function NavBar() {
 
   return (
     <>
-      <div className="fixed top-0 bg-black bg-opacity-70 text-white flex gap-[30px] w-full md:p-[30px] sm:p-[20px] justify-around md:h-[100px] h-[50px] text-center z-50">
+      <div className="fixed top-0 bg-black bg-opacity-70 text-white flex gap-[30px] w-full lg:p-[30px] sm:p-[20px] justify-around lg:h-[100px] h-[50px] text-center z-50">
         {/* logo */}
         <div>
           <h1 className="text-4xl">
@@ -24,8 +24,8 @@ function NavBar() {
           </h1>
         </div>
         {/* nav links for larger screens */}
-        <div className="hidden md:block">
-          <ul className="flex gap-[70px] md:text-[20px] sm:text-[15px]">
+        <div className="hidden lg:block">
+          <ul className="flex gap-[70px] lg:text-[20px] sm:text-[15px]">
             <li>
               <Link
                 to="/"
@@ -101,7 +101,7 @@ function NavBar() {
           </ul>
         </div>
         {/* hamburger icon for small screens */}
-        <div className="md:hidden sm:block text-[20px] mt-[10px]">
+        <div className="lg:hidden sm:block text-[20px] mt-[10px]">
           <FaBars onClick={toggleMenu} />
         </div>
       </div>

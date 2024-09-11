@@ -57,10 +57,10 @@ function TechnologyStack() {
   ];
 
   return (
-    <div className="md:p-[70px] p-[10px] border-b-[1px] border-gray-400 md:mb-[40px] mb-[10px]">
+    <div className="lg:p-[70px] p-[10px] border-b-[1px] border-gray-400 lg:mb-[40px] mb-[10px]">
       <div>
         <h1
-          className="text-center md:text-5xl text-2xl font-bold"
+          className="text-center lg:text-5xl text-2xl font-bold"
           data-aos="fade-right"
         >
           Technology Stack
@@ -68,7 +68,7 @@ function TechnologyStack() {
       </div>
 
       {/* Technology Links */}
-      <div className="grid grid-cols-2 md:flex justify-between mt-[100px] text-[16px] md:text-xl text-gray-500 mb-[10px]">
+      <div className="grid grid-cols-2 lg:flex justify-between mt-[100px] text-[16px] lg:text-xl text-gray-500 mb-[10px]">
         {stackOptions.map((option, index) => (
           <button
             key={index}
@@ -85,7 +85,7 @@ function TechnologyStack() {
       </div>
 
       {/* Display the selected stack */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-10 items-center text-center ">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 mt-10 items-center text-center ">
         {stackOptions
           .find((option) => option.value === selectedStack)
           .stack.map((item, index) => (

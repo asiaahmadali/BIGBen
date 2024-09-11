@@ -2,7 +2,7 @@ function ApplyJob(Props) {
   return (
     <>
       <div className="flex flex-col  items-center gap-5 overflow-hidden">
-        <h2 className="md:text-4xl md:font-semibold font-medium text-xl mt-8 ">
+        <h2 className="lg:text-4xl lg:font-semibold font-medium text-xl mt-8 ">
           Apply for {Props.title}
         </h2>
         <form className="mt-4">
@@ -10,7 +10,7 @@ function ApplyJob(Props) {
             <input
               type="text"
               name="name"
-              className="border-[1px] outline-none border-gray-400 md:p-3 p-2 w-full rounded-[10px] text-[18px]"
+              className="border-[1px] outline-none border-gray-400 lg:p-3 p-2 w-full rounded-[10px] text-[18px]"
               required
               placeholder="Name*"
             />
@@ -19,7 +19,7 @@ function ApplyJob(Props) {
             <input
               type="text"
               name="position"
-              className="border-[1px] outline-none border-gray-400 md:p-3 p-2 w-full rounded-[10px] text-[18px]"
+              className="border-[1px] outline-none border-gray-400 lg:p-3 p-2 w-full rounded-[10px] text-[18px]"
               required
               placeholder="Position*"
             />
@@ -28,7 +28,7 @@ function ApplyJob(Props) {
             <input
               type="email"
               name="email"
-              className="border-[1px] border-gray-400 md:p-3 p-2 w-full outline-none rounded-[10px] text-[18px]"
+              className="border-[1px] border-gray-400 lg:p-3 p-2 w-full outline-none rounded-[10px] text-[18px]"
               required
               placeholder="Email*"
             />
@@ -38,7 +38,7 @@ function ApplyJob(Props) {
             <input
               type="number"
               name="phone"
-              className="border-[1px] outline-none border-gray-400 md:p-3 p-2 w-full rounded-[10px] text-[18px]"
+              className="border-[1px] outline-none border-gray-400 lg:p-3 p-2 w-full rounded-[10px] text-[18px]"
               required
               placeholder="Phone*"
             />
@@ -52,7 +52,7 @@ function ApplyJob(Props) {
               <input
                 type="file"
                 name="resume"
-                className=" md:p-3 p-2 w-full text-[16px] mt-1 mb-1"
+                className=" lg:p-3 p-2 w-full text-[16px] mt-1 mb-1"
                 required
                 placeholder="Choose file"
               />
@@ -64,7 +64,7 @@ function ApplyJob(Props) {
 
           <button
             type="submit"
-            className="bg-orange-500 w-full text-black p-2 md:p-3 rounded text-[18px] transform hover:scale-90 transition duration-300 ease-in-out font-medium"
+            className="bg-orange-500 w-full text-black p-2 lg:p-3 rounded text-[18px] transform hover:scale-90 transition duration-300 ease-in-out font-medium"
           >
             Submit
           </button>

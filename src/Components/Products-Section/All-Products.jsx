@@ -52,7 +52,7 @@ function AllProducts() {
 
   return (
     <>
-      <div className="md:pl-[70px] md:pr-[70px] overflow-hidden">
+      <div className="lg:pl-[70px] lg:pr-[70px] overflow-hidden">
         <LeftProduct
           para={para1}
           heading={heading1}

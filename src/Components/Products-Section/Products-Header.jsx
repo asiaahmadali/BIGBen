@@ -18,14 +18,14 @@ function ProductsHeader() {
       {/* Content */}
       <div className="relative z-10 text-white text-center px-4 md:px-0">
         <h1
-          className="text-center md:text-8xl text-3xl font-bold mb-8"
+          className="text-center lg:text-8xl text-3xl font-bold mb-8"
           data-aos="fade-in"
           data-aos-delay="1000"
         >
           Our Products
         </h1>
         <p
-          className="font-medium md:text-2xl text-lg"
+          className="font-medium lg:text-2xl text-lg"
           data-aos="fade-in"
           data-aos-delay="1000"
         >

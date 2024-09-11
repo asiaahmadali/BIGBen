@@ -4,7 +4,7 @@ function Mission() {
       <div className="overflow-hidden">
         <div className="overflow-hidden">
           <h1
-            className="md:text-5xl text-2xl font-bold text-center m-[10px] mt-[20px] mb-[20px]"
+            className="lg:text-5xl text-2xl font-bold text-center m-[10px] mt-[20px] mb-[20px]"
             data-aos="fade-down"
           >
             Mission
@@ -12,8 +12,8 @@ function Mission() {
         </div>
 
         {/* mission divs */}
-        <div className="flex md:flex-row flex-col justify-around items-center mt-[20px] overflow-hidden">
-          <div className="flex flex-col ">
+        <div className="flex lg:flex-row flex-col justify-around items-center mt-[20px] overflow-hidden">
+          <div className="flex flex-col">
             <div
               className="flex gap-[20px] overflow-hidden"
               data-aos="fade-down"
@@ -25,7 +25,7 @@ function Mission() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className="text-orange-400 md:text-2xl text-xl font-medium mt-4 ">
+              <div className="text-orange-400 lg:text-2xl text-xl font-medium mt-4">
                 Intra & Enterpreneureship
               </div>
             </div>
@@ -41,7 +41,7 @@ function Mission() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className="text-orange-400 md:text-2xl text-xl  font-medium mt-4 text-center">
+              <div className="text-orange-400 lg:text-2xl text-xl font-medium mt-4 text-center">
                 Fun To Play
               </div>
             </div>
@@ -57,7 +57,7 @@ function Mission() {
                 </div>
                 <div className="w-1 bg-orange-400 h-16 mt-2"></div>
               </div>
-              <div className="text-orange-400 md:text-2xl text-xl  font-medium mt-4 text-center">
+              <div className="text-orange-400 lg:text-2xl text-xl font-medium mt-4 text-center">
                 AI Powered Apps
               </div>
             </div>

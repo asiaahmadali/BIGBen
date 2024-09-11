@@ -4,15 +4,15 @@ import { FiChevronRight } from "react-icons/fi";
 function OpenPositions() {
   return (
     <>
-      <div className="md:p-[100px] p-[10px] overflow-hidden">
-        <h1 className="md:text-4xl text-xl font-bold text-center md:mb-[50px] mb-[20px]">
+      <div className="lg:p-[100px] p-[10px] overflow-hidden">
+        <h1 className="lg:text-4xl text-xl font-bold text-center lg:mb-[50px] mb-[20px]">
           Open Positions
         </h1>
 
         <div className="flex flex-col gap-5 items-center">
           {/* 2D Spine Animator Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300 ">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300 ">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               2D Spine Animator
             </h1>
             <div>
@@ -28,8 +28,8 @@ function OpenPositions() {
           </div>
 
           {/* Business Developer Executive Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               Business Developer Executive
             </h1>
             <div>
@@ -45,8 +45,8 @@ function OpenPositions() {
           </div>
 
           {/* Backend Developer Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               Backend Developer
             </h1>
             <div>
@@ -62,8 +62,8 @@ function OpenPositions() {
           </div>
 
           {/* iOS Developer Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               iOS Developer
             </h1>
             <div>
@@ -79,8 +79,8 @@ function OpenPositions() {
           </div>
 
           {/* Marketing Specialist Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               Marketing Specialist
             </h1>
             <div>
@@ -96,8 +96,8 @@ function OpenPositions() {
           </div>
 
           {/* 2D Concept Artist Job */}
-          <div className="border-[1px] border-gray-200 md:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
-            <h1 className="md:text-xl text-[17px] text-orange-400 font-medium">
+          <div className="border-[1px] border-gray-200 lg:p-4 p-3 w-full rounded-[30px] flex justify-between cursor-pointer hover:shadow-md hover:shadow-gray-300">
+            <h1 className="lg:text-xl text-[17px] text-orange-400 font-medium">
               2D Concept Artist
             </h1>
             <div>

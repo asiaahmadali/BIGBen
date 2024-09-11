@@ -19,10 +19,10 @@ function Awards() {
 
   return (
     <>
-      <div className="bg-gray-100 md:pt-[80px] pt-[20px] p-[20px]">
+      <div className="bg-gray-100 lg:pt-[80px] pt-[20px] p-[20px]">
         <div>
           <h1
-            className="text-center  text-2xl md:text-4xl font-bold md:mb-[70px] mb-[20px] mt-[10px]"
+            className="text-center text-2xl lg:text-4xl font-bold lg:mb-[70px] mb-[20px] mt-[10px]"
             data-aos="fade-right"
           >
             Awards & Recognitions

@@ -3,31 +3,31 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <div className="md:p-[70px] p-[10px] bg-pink-50 mt-[20px] border-t-[1px] border-gray-300">
-        <div className="flex justify-between ">
+      <div className="lg:p-[70px] p-[10px] bg-pink-50 mt-[20px] border-t-[1px] border-gray-300">
+        <div className="flex justify-between overflow-hidden">
           <div>
-            <h1 className="text-orange-400 font-bold md:text-xl text-sm">
+            <h1 className="text-orange-400 font-bold lg:text-xl text-sm">
               Get in Touch
             </h1>
             <img
               src="images/footer.svg"
               alt=""
-              className="md:w-[50px] w-[20px]"
+              className="lg:w-[50px] w-[20px]"
             />
           </div>
-          <h1 className="md:text-5xl text-xl font-medium" data-aos="fade-right">
+          <h1 className="lg:text-5xl text-xl font-medium" data-aos="fade-right">
             BIG
             <span className="text-orange-500 ">Ben</span>
           </h1>
         </div>
 
         {/* footer links */}
-        <div className="md:flex md:justify-between grid grid-cols-2 gap-3 md:mt-[40px] mt-[10px]">
+        <div className="lg:flex lg:justify-between grid grid-cols-2 gap-3 lg:mt-[40px] mt-[10px]">
           <div>
-            <h1 className="text-orange-400 font-bold md:text-xl text-[18px] md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold lg:text-xl text-[18px] lg:mb-[15px] mb-[10px]">
               Coporate
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
+            <ul className="flex flex-col gap-2 lg:text-[17px] text-[15px]">
               <li>
                 <Link to="/#expertise" className="hover:text-orange-400">
                   Areas Of Expertise
@@ -57,10 +57,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-[18px] md:text-[18px] md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] lg:text-[18px] lg:mb-[15px] mb-[10px]">
               About Us
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
+            <ul className="flex flex-col gap-2 lg:text-[17px] text-[15px]">
               <li>
                 <Link
                   to="/about#founder-message"
@@ -91,10 +91,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] lg:text-xl lg:mb-[15px] mb-[10px]">
               What We Want
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
+            <ul className="flex flex-col gap-2 lg:text-[17px] text-[15px]">
               <li>
                 <Link to="/what-we-do#gaming" className="hover:text-orange-400">
                   Gaming
@@ -109,10 +109,10 @@ function Footer() {
           </div>
 
           <div>
-            <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px]">
+            <h1 className="text-orange-400 font-bold text-[18px] lg:text-xl lg:mb-[15px] mb-[10px]">
               Careers
             </h1>
-            <ul className="flex flex-col gap-2 md:text-[17px] text-[15px]">
+            <ul className="flex flex-col gap-2 lg:text-[17px] text-[15px]">
               <li>
                 <Link to="/careers#why-join" className="hover:text-orange-400">
                   Why Join Big<span className="text-orange-400">Ben</span>
@@ -146,11 +146,11 @@ function Footer() {
         </div>
 
         {/* get in touch */}
-        <div className="border-t-[1px] border-b-[1px] border-gray-300 flex gap-[20px] items-center p-[10px] md:mt-[80px] mt-[10px]">
-          <h1 className="text-orange-400 font-bold md:text-xl text-[18px] md:mb-[15px] mb-[10px] md:mr-[50px]">
+        <div className="border-t-[1px] border-b-[1px] border-gray-300 flex gap-[20px] items-center p-[10px] lg:mt-[80px] mt-[10px]">
+          <h1 className="text-orange-400 font-bold lg:text-xl text-[18px] lg:mb-[15px] mb-[10px] lg:mr-[50px]">
             Get in Touch
           </h1>
-          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[15px]">
+          <ul className="flex lg:gap-[30px] gap-[10px] lg:text-[17px] text-[15px]">
             <li>
               <Link to="/" className="hover:text-orange-400">
                 Offices
@@ -170,11 +170,11 @@ function Footer() {
         </div>
 
         {/*Legal */}
-        <div className="flex md:gap-[20px] gap-[10px] items-center p-[10px] ">
-          <h1 className="text-orange-400 font-bold text-[18px] md:text-xl md:mb-[15px] mb-[10px] md:mr-[120px] mr-[60px]">
+        <div className="flex lg:gap-[20px] gap-[10px] items-center p-[10px] ">
+          <h1 className="text-orange-400 font-bold text-[18px] lg:text-xl lg:mb-[15px] mb-[10px] lg:mr-[120px] mr-[60px]">
             Legal
           </h1>
-          <ul className="flex md:gap-[30px] gap-[10px] md:text-[17px] text-[15px]">
+          <ul className="flex lg:gap-[30px] gap-[10px] lg:text-[17px] text-[15px]">
             <li>
               <Link to="" className="hover:text-orange-400">
                 Privacy Policy
@@ -189,10 +189,10 @@ function Footer() {
         </div>
 
         {/*copyright &  social media icons div */}
-        <div className="md:mt-[100px] mt-[10px] flex flex-col md:flex-row justify-between ">
+        <div className="lg:mt-[100px] mt-[10px] flex flex-col lg:flex-row justify-between ">
           {/* copyright */}
           <div>
-            <p className="text-[12px] text-center md:text-start mb-[15px]">
+            <p className="text-[12px] text-center lg:text-start mb-[15px]">
               © 2023 Terafort All Rights Reserved.<br></br> Last updated on
               August 07, 2024
             </p>
@@ -200,10 +200,10 @@ function Footer() {
 
           {/* social media icons */}
           <div className="flex gap-5 items-center">
-            <h1 className="text-sm md:text-xl text-orange-400 font-bold flex gap-[10px]">
+            <h1 className="text-sm lg:text-xl text-orange-400 font-bold flex gap-[10px]">
               Follow us
             </h1>
-            <div className="flex gap-3 md:text-[25px] text-[16px]">
+            <div className="flex gap-3 lg:text-[25px] text-[16px]">
               <Link className="border-[1px] text-white rounded-full bg-[#b38850] hover:text-orange-400 p-3 ">
                 <FaFacebook></FaFacebook>
               </Link>

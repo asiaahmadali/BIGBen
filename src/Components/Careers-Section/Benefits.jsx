@@ -12,9 +12,9 @@ function Benefits() {
   const heading9 = "Recreational Areas (gaming, sports, cafe)";
   return (
     <>
-      <div className="md:p-[70px] p-[10px] bg-pink-50 md:pb-[70px] overflow-hidden">
+      <div className="lg:p-[70px] p-[10px] bg-pink-50 lg:pb-[70px] overflow-hidden">
         <div>
-          <h1 className="text-center font-bold md:text-4xl text-2xl mb-3">
+          <h1 className="text-center font-bold lg:text-4xl text-2xl mb-3">
             {" "}
             Employment Benefits
           </h1>
@@ -22,7 +22,7 @@ function Benefits() {
 
         {/*   benefits cards */}
 
-        <div className="gap-[20px] mt-[50px] grid grid-cols-2 md:grid-cols-3 place-items-center p-[10px] md:p-[70px]">
+        <div className="gap-[20px] mt-[50px] grid grid-cols-2 lg:grid-cols-3 place-items-center p-[10px] lg:p-[70px]">
           <BenefitCard
             heading={heading1}
             imgsrc="images/b-card1.webp"
