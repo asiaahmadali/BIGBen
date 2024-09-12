@@ -1,13 +1,13 @@
 function DoApps() {
   return (
     <>
-      <div className="p-[10px] lg:p-[100px] flex lg:flex-row flex-col-reverse gap-[10px] lg:items-start items-center overflow-hidden">
+      <div className="p-[10px] lg:p-[100px] flex lg:flex-row flex-col-reverse gap-[10px]  items-center overflow-hidden">
         {/* img */}
         <div className="lg:w-[50%] w-[90%]">
           <img
             src="images/do2.png"
             alt=""
-            className="rounded-md w-[100%] lg:w-[85%]"
+            className="rounded-md lg:w-[780px] lg:h-[550px] w-[300px] h-[300px]"
             data-aos="fade-right"
           />
         </div>

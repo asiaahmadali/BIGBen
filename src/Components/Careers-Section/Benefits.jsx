@@ -22,7 +22,7 @@ function Benefits() {
 
         {/*   benefits cards */}
 
-        <div className="gap-[20px] mt-[50px] grid grid-cols-2 lg:grid-cols-3 place-items-center p-[10px] lg:p-[70px]">
+        <div className="gap-[20px] mt-[50px] grid grid-cols-2 lg:grid-cols-3 place-items-center p-[10px] lg:p-[30px]">
           <BenefitCard
             heading={heading1}
             imgsrc="images/b-card1.webp"

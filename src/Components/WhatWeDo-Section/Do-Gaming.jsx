@@ -1,7 +1,7 @@
 function DoGaming() {
   return (
     <>
-      <div className="p-[10px] lg:p-[70px] flex lg:flex-row flex-col gap-[30px] lg:items-start items-center overflow-hidden">
+      <div className="p-[10px] lg:p-[70px] flex lg:flex-row flex-col gap-[30px]  items-center overflow-hidden">
         <div
           className="flex flex-col gap-8 items-center lg:items-start"
           data-aos="fade-right"
@@ -72,11 +72,11 @@ function DoGaming() {
 
           {/* image */}
         </div>
-        <div className="lg:w-[50%] w-[90%]">
+        <div className="lg:w-[60%] w-[90%]">
           <img
             src="images/do1.webp"
             alt=""
-            className="rounded-md w-[100%] lg:w-[85%]"
+            className="rounded-md lg:w-[780px] lg:h-[550px] w-[300px] h-[300px]"
             data-aos="fade-left"
           />
         </div>

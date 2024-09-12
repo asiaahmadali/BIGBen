@@ -83,7 +83,7 @@ function Home() {
 
   return (
     <>
-      <div className="relative h-screen w-full overflow-hidden">
+      <div className="relative h-screen w-full overflow-hidden ">
         {/* Swiper Container */}
         <div
           className="swiper-container absolute inset-0 h-full w-full -z-10"

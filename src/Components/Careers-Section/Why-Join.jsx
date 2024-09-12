@@ -40,7 +40,7 @@ function WhyJoin() {
           <img
             src="images/join.webp"
             alt=""
-            className="rounded-md"
+            className="rounded-md lg:w-[780px] lg:h-[500px] w-[300px] h-[300px]"
             data-aos="fade-left"
           />
         </div>

@@ -14,7 +14,7 @@ function FounderMessage() {
           <img
             src="images/founder-f.jpg"
             alt="founder"
-            className="w-[100%] h-[90%] rounded-md"
+            className="lg:w-[550px] lg:h-[400px] w-[300px] h-[300px] rounded-md"
             data-aos="fade-left"
           />
         </div>

@@ -37,7 +37,8 @@ function Awards() {
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
-            1024: { slidesPerView: 4 },
+            900: { slidesPerView: 3 },
+            1100: { slidesPerView: 4 },
           }}
         >
           <SwiperSlide>
