@@ -36,7 +36,7 @@ function WhyJoin() {
 
           {/* image */}
         </div>
-        <div className="lg:w-[30%] w-full">
+        <div className="lg:w-[30%] w-full flex items-center justify-center">
           <img
             src="images/join.webp"
             alt=""

@@ -72,11 +72,11 @@ function DoGaming() {
 
           {/* image */}
         </div>
-        <div className="lg:w-[60%] w-[90%]">
+        <div className="lg:w-[60%] w-[90%] flex items-center justify-center">
           <img
             src="images/do1.webp"
             alt=""
-            className="rounded-md lg:w-[780px] lg:h-[550px] w-[300px] h-[300px]"
+            className="rounded-md lg:w-[780px] lg:h-[550px] w-[300px] "
             data-aos="fade-left"
           />
         </div>
