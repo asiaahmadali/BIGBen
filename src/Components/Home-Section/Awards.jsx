@@ -9,11 +9,11 @@ function Awards() {
   const headingC4 = "Game of the Year Award in P@SHA ICT Awards 2022";
 
   const pCard1 =
-    "TeraFort became peopls's choice of the year through its groundbreaking game in the 'Huawel Apps Competition 2021'";
+    "BigBen became peopls's choice of the year through its groundbreaking game in the 'Huawel Apps Competition 2021'";
   const pCard2 =
     "Five of our Games have hit more than 50+ million downloads.A way to show our exponential growth";
   const pCard3 =
-    "TeraFort has been recognized as the 'Innovators' for actively playing its part in revolutionizing the industry.";
+    "BigBen has been recognized as the 'Innovators' for actively playing its part in revolutionizing the industry.";
   const pCard4 =
     "P@SHA entiled Terafort as Pakistan's first choice in game's publishing and development by awarding it the Game of the Year Award consistently for two years.";
 

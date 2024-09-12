@@ -193,8 +193,8 @@ function Footer() {
           {/* copyright */}
           <div>
             <p className="text-[12px] text-center lg:text-start mb-[15px]">
-              © 2023 Terafort All Rights Reserved.<br></br> Last updated on
-              August 07, 2024
+              © 2023 BigBen All Rights Reserved.<br></br> Last updated on August
+              07, 2024
             </p>
           </div>
 
