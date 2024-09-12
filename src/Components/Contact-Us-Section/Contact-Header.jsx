@@ -77,7 +77,7 @@ function ContactHeader() {
                   : "text-white"
               }`}
             >
-              AUSTIN
+              United States
             </p>
           </div>
         </div>
