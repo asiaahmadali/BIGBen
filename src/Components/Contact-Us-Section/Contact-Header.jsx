@@ -17,11 +17,11 @@ function ContactHeader() {
             <div className="flex flex-col gap-6 items-center">
               <div className="lg:mt-[50px] mt-[20px] flex flex-col gap-6">
                 <h1 className="lg:text-3xl text-xl font-bold text-center">
-                  AUSTIN
+                  United States
                 </h1>
                 <p className="lg:text-[20px] text-[16px] text-center">
                   BIG<span className="text-orange-400">Ben</span> Gaming Studio,
-                  701 Brazos Street, Ste. 720, Austin, Texas, 78701
+                  30N Gould ST STE 31937 SHERIDAN WY 82801
                 </p>
               </div>
               <img
@@ -40,7 +40,7 @@ function ContactHeader() {
                   Lahore
                 </h1>
                 <p className="lg:text-[20px] text-[16px] text-center">
-                  30N Gould ST STE 31937 SHERIDAN WY 82801
+                  Lahore,pakistan
                 </p>
                 <div className="flex gap-3 text-blue-600 items-center justify-center text-[16px] lg:text-xl">
                   <FaMapMarker className="text-xl"></FaMapMarker>
